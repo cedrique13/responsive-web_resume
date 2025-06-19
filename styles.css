@@ -573,6 +573,28 @@ section {
     font-style: italic;
 }
 
+.university-name {
+    color: var(--primary-color);
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+}
+
+.university-name::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: var(--primary-color);
+    transition: width 0.3s ease;
+}
+
+.university-name:hover::after {
+    width: 100%;
+}
+
 .coursework h5 {
     margin-bottom: 0.5rem;
     color: var(--text-primary);
@@ -597,7 +619,30 @@ section {
     padding: 0;
     margin: 0;
 }
+.certifications li a {
+    color: var(--text-primary);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: block;
+    padding: 0.5rem 0;
+}
 
+.certifications li a:hover {
+    color: var(--primary-color);
+    transform: translateX(5px);
+}
+
+.certifications li {
+    margin-bottom: 0.75rem;
+    padding-left: 1rem;
+    position: relative;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.certifications li:hover {
+    background-color: rgba(102, 126, 234, 0.05);
+}
 .certifications li {
     margin-bottom: 1rem;
     padding: 0.75rem 0 0.75rem 2.5rem;
