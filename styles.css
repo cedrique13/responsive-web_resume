@@ -681,6 +681,17 @@ section {
     gap: 2rem;
 }
 
+.contact-item a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-item a:hover {
+    color: var(--secondary-color);
+    text-decoration: underline;
+}
+
 .contact-item {
     background: white;
     padding: 1.5rem;
