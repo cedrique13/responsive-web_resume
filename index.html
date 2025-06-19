@@ -1,0 +1,319 @@
+g
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cedric Bienvenue - Software Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+<a href="#home" class="nav-logo">
+    <img src="assets/icon.jpeg" alt="Cedric Bienvenue Logo" class="logo-icon">
+</a>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#hero" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#education" class="nav-link">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">CEDRIC BIENVENUE</h1>
+                <p class="hero-subtitle">Junior Software Engineer</p>
+                <p class="hero-description">
+                   Crafting efficient APIs and automating infrastructure with precision to build secure, scalable, and high-performance backend systems
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="#about" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="code-terminal">
+                    <div class="terminal-header">
+                        <div class="terminal-buttons">
+                            <span class="btn-close"></span>
+                            <span class="btn-minimize"></span>
+                            <span class="btn-maximize"></span>
+                        </div>
+                        <div class="terminal-title">~ backend-api</div>
+                    </div>
+                    <div class="terminal-body">
+                        <div class="code-line">
+                            <span class="prompt">$</span>
+                            <span class="command">npm start</span>
+                        </div>
+                        <div class="code-line fade-in" style="animation-delay: 0.5s;">
+                            <span class="output">Server running on port 3000...</span>
+                        </div>
+                        <div class="code-line fade-in" style="animation-delay: 1s;">
+                            <span class="output">Database connected ✓</span>
+                        </div>
+                        <div class="code-line fade-in" style="animation-delay: 1.5s;">
+                            <span class="output">API endpoints ready ✓</span>
+                        </div>
+                        <div class="typing-line fade-in" style="animation-delay: 2s;">
+                            <span class="prompt">$</span>
+                            <span class="typing-command" id="typing-text"></span>
+                            <span class="cursor"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a junior software engineer with a good foundation in client-side scripting. I'm currently diving deeper into server-side programming and backend technologies, focusing on building robust, scalable, and efficient systems.
+                    </p>
+                    <p>
+                       My curiosity about how systems work has driven me to dive into building APIs and exploring DevOps practices. Though still in the early stages, I'm committed to continuous learning and adapting to new technologies. I thrive in collaborative environments and enjoy solving real-world problems through efficient and scalable solutions. Outside of coding, I enjoy connecting with people, I'm a faithful believer, and an indulgent sportsperson.
+                    </p>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <strong>Location:</strong> Kicukiro - Kigali, Rwanda
+                        </div>
+                        <div class="info-item">
+                            <strong>Languages:</strong> Kinyarwanda (Native), English (C1)
+                        </div>
+                        <div class="info-item">
+                            <strong>Interests:</strong> Open Source Contribution, Cloud-Native Technologies, Scalable & Distributed Systems
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>DevOps</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Kubernetes</span>
+                        <span class="skill-tag">GitHub Actions</span>
+                        <span class="skill-tag">Linux</span>
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">Terraform</span>
+                        <span class="skill-tag">Prometheus</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">Express.js</span>
+                        <span class="skill-tag">Django</span>
+                        <span class="skill-tag">RESTful APIs</span>
+                        <span class="skill-tag">JWT</span>
+                        <span class="skill-tag">Redis</span>
+                        <span class="skill-tag">Nginx</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Databases</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">Firebase</span>
+                        <span class="skill-tag">Prisma</span>
+                        <span class="skill-tag">Sequelize</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Programming</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Node.js</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">React.js</span>
+                        <span class="skill-tag">Next.js</span>
+                        <span class="skill-tag">Tailwind CSS</span>
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Testing</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">Jest</span>
+                        <span class="skill-tag">PyTest</span>
+                        <span class="skill-tag">Postman</span>
+                        <span class="skill-tag">Playwright</span>
+                        <span class="skill-tag">TDD</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">March 2024 - October 2024</div>
+                    <div class="timeline-content">
+                        <h3>Frontend Developer</h3>
+                        <h4>ALX Rwanda – Kigali, Rwanda</h4>
+                        <ul>
+                            <li>Developed responsive, cross-browser-compatible user interfaces using HTML, CSS, and JavaScript</li>
+                            <li>Implemented interactive features and API integrations with JavaScript libraries and frameworks like React.js</li>
+                            <li>Collaborated with designers and back-end developers to deliver high-quality, user-friendly web applications</li>
+                            <li>Used Git for version control, managing code repositories & resolving conflicts in a team environment</li>
+                            <li>Optimized web performance and applied SEO best practices to enhance site speed and search visibility</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">August 2023 - January 2024</div>
+                    <div class="timeline-content">
+                        <h3>Insurance Underwriter</h3>
+                        <h4>Radiant Insurance Company – South, Rwanda</h4>
+                        <ul>
+                            <li>Assessed risks and evaluated insurance applications to determine coverage and pricing</li>
+                            <li>Collaborated with agents and clients to clarify details and explain underwriting decisions</li>
+                            <li>Ensured compliance with industry regulations and company guidelines</li>
+                            <li>Provided exceptional customer service and resolved client inquiries</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education & Certifications</h2>
+            <div class="education-grid">
+                <div class="education-item">
+                    <h3>BSc (Hons) Software Engineering</h3>
+                    <h4>African Leadership University – Kigali, Rwanda</h4>
+                    <p class="education-date">September 2024 – March 2028</p>
+                    <div class="coursework">
+                        <h5>Relevant Coursework:</h5>
+                        <p>Object-Oriented Programming • Data Structures & Algorithms • Web & Mobile App Development • Leadership & Team Dynamics • Software Engineering Principles • DevOps • Databases • Agile Methodologies • Cloud Computing • Software Testing Life Cycle (STLC) • Entrepreneurship & Innovation</p>
+                    </div>
+                </div>
+                <div class="certifications">
+                    <h3>Certifications</h3>
+                    <ul>
+                        <li>LFS250: Kubernetes and Cloud Native Essentials</li>
+                        <li>JS Design Patterns for Web Apps</li>
+                        <li>API Design in Node.js</li>
+                        <li>JavaScript Algorithms and Data Structures</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="extracurricular">
+                <h3>Extracurricular Activities</h3>
+                <div class="activity-item">
+                    <h4>Collaborator, Brainiacs</h4>
+                    <p class="activity-date">September 2024 - Present</p>
+                    <p>A student-led tech group where we explore real-world problems, collaborate on diverse tech projects, and stay updated on the latest in software development and DevOps. We also support and uplift fellow members especially those new to programming by helping them overcome learning gaps and technical challenges.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h3>Email</h3>
+                        <p>cedrick13bienvenue@gmail.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Phone</h3>
+                        <p>+250784667128</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Location</h3>
+                        <p>Kicukiro - Kigali, Rwanda</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Connect</h3>
+                        <div class="social-links">
+                            <a href="#" class="social-link">LinkedIn</a>
+                            <a href="#" class="social-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        <span class="error-message" id="name-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        <span class="error-message" id="email-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="6" required></textarea>
+                        <span class="error-message" id="message-error"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Cedric Bienvenue. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
